@@ -17,7 +17,8 @@ public abstract class Persona {
         this.nombre=nombre;
         this.dni=dni;
         
-    } 
+    }
+    //Anca
     
     
 }
