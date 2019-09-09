@@ -56,7 +56,9 @@ public class Facultad {
 }
 class metodoFacultad{
     private ArrayList<Facultad> facu;
-    
+    metodoFacultad(){
+            facu = new ArrayList<>();   
+        }
    //--------Metodo basicos------------//
     public void Agregar(Facultad x){
        facu.add(x);
