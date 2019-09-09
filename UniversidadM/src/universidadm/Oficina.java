@@ -1,4 +1,4 @@
-package universidadm;
+package Universidad;
 
 import java.util.ArrayList;
 
@@ -35,7 +35,9 @@ public class Oficina {
 }
     class metodoOficina{
         private ArrayList <Oficina> ofi;
-
+        metodoOficina(){
+         ofi = new ArrayList<>();   
+        }
         //---------------Metodos Basicos-----------//
         public void Agregar(Oficina x){
        ofi.add(x);
