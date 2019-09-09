@@ -1,4 +1,4 @@
-package Universidad;
+package universidadm;
 
 import java.util.ArrayList;
 
