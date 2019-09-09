@@ -1,0 +1,35 @@
+Persona{
+  String nombre;
+  String DNI;
+}
+Docente{
+  String tipo;
+  int ID;
+}
+Trabajador{
+  String tipo;
+  int ID;
+}
+Salon{
+  int ID;
+  int aforo;
+}
+Oficina{
+  int ID;
+  Trabajador trabajador; (ArrayList)
+}
+Facultad{
+  String nombre;
+  Docente docente; (ArrayList)
+  Oficina oficina; (ArrayList)
+  Salon salon; (ArrayList)
+}
+Universidad{
+  String nombre;
+  Facultad facultad; (ArrayList)
+  Oficinia oficina; (ArrayList)
+}
+Metodos{
+  Universidad uni;
+}
+
